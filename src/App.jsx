@@ -20,8 +20,8 @@ function Layout() {
 				<Route path="/login" element={<Login />} />
 				<Route path="*" element={<PageNotFound />} />
 				<Route path="/app" element={<AppLayout />}>
-					<Route path="cities" element={<p>Cities</p>} />
-					<Route path="countries" element={<p>Countries</p>} />
+					<Route path="cities" element={<p>List of Cities</p>} />
+					<Route path="countries" element={<p>List of Countries</p>} />
 					<Route path="form" element={<p>Form</p>} />
 				</Route>
 			</Routes>
